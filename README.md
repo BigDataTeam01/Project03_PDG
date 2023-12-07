@@ -12,7 +12,7 @@
 
 >------Contribution----------
 
->>Main  : 박동근
+>Main  : 박동근
 
 >Add ~ Sub class : 박정민
 
