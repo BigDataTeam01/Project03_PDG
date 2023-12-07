@@ -12,15 +12,15 @@
 
 >------Contribution----------
 
->Main  : 박동근
+* Main  : 박동근
 
->Add ~ Sub class : 박정민
+* Add ~ Sub class : 박정민
 
->Mul ~ Div class  : 박지환
+* Mul ~ Div class  : 박지환
 
->Remainder class  : 박동근
+* Remainder class  : 박동근
 
-**----------------------------
+>----------------------------
 
 
 Updated : 2023.12.07
