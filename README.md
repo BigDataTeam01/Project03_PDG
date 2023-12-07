@@ -12,13 +12,13 @@
 
 **------Contribution----------
 
-Main 작성 : 박동근
+Main  : 박동근
 
-Add ~ Sub class 작성 : 박정민
+Add ~ Sub class : 박정민
 
-Mul ~ Div class 작성 : 박지환
+Mul ~ Div class  : 박지환
 
-Remainder class 작성 : 박동근
+Remainder class  : 박동근
 
 **----------------------------
 
