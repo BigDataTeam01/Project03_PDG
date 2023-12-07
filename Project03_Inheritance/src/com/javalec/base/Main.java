@@ -11,21 +11,23 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		// Property
+		// ========= Property =========
 		Scanner scanner = new Scanner(System.in);
 		int [] numArray = new int[4];
 		AddSubMulDivRemainder calc = new AddSubMulDivRemainder();
-		
 		
 		// Input
 		for(int i = 0 ; i <=3; i++) {
 			System.out.print(String.format("%d번의 숫자를 입력하세요 : ",i+1));
 			numArray[i] = scanner.nextInt();
 		}
-		// Output
+		
+		
+		//========= Output =========
+		
+		//[Field 로 데이터전달]
 		// Addition 에 있는 field 의 변수를 이용하여 각각의 클래스에서 method() 를 사용해 결과값을 리턴
-		// 리턴 받은 값들을 출력함. 
-
+		// 리턴 받은 값들을 출력함. 		
 		System.out.println(" >>> Field를 사용 ");
 		System.out.println(String.format(
 				 "1. 1번과 2번 의 숫자의 합은 %d 입니다.  ",
@@ -40,14 +42,11 @@ public class Main {
 				calc.subAction2(),
 				calc.mulAcion(),
 				calc.divAction()
-				
 				));
-		
+		// [Constructor 로 데이터 전달]
 		// Constructor의 파라미터에 숫자를 입력하여 생성되는 순간 output  print 가 되도록 함.  
 		System.out.println(" >>> Constructor 를 사용 ");
 		System.out.println("3번과 4번의 덧셈, 뺄셈, 곱셈의 결과는 ");
-		
-		
 		Addition  add  	= new Addition( numArray[2],numArray[3]);
 		AddSub    sub 	= new AddSub(   numArray[2],numArray[3]);
 		AddSubMul mul 	= new AddSubMul(numArray[2],numArray[3]);
@@ -56,6 +55,8 @@ public class Main {
 		AddSub    sub3  = new AddSub(numArray[0],numArray[1],numArray[2]);
 		AddSubMul mul3  = new AddSubMul(numArray[0],numArray[1],numArray[2]);
 		
+		
+		// [Method 로 데이터 전달]
 		// Method 를 호출하고 Method 에 파라미터를 입력하여 입력한 파라미터를 계산해서 리턴함. 
 		// 리턴한 값들을 출력함.  
 		System.out.println(">>> Method를 사용");
@@ -71,7 +72,6 @@ public class Main {
 				calc.mulAcion(		  numArray[0],numArray[2],numArray[3]),
 				calc.divAction(		  numArray[0],numArray[2],numArray[3]),
 				calc.remainderAction( numArray[0],numArray[2],numArray[3])
-				
 				));
 		System.out.println(String.format(
 				  "2. 2번과 4번 의 뺄셈, 나셈의 결과는"
