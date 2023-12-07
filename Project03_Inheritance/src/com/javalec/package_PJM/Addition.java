@@ -2,6 +2,15 @@ package com.javalec.package_PJM;
 
 import java.util.Scanner;
 
+
+/*
+ * Description : Addition
+ * Author: PJM
+ * Date : 2023.12.07(Thursday)
+ * 
+ */
+
+
 public class Addition {
 	// Field
 	public int num1 = 0;
@@ -13,12 +22,10 @@ public class Addition {
 	// Construction
 	public Addition() {
 	} 
-	public Addition(int num1, int num2, int num3, int num4) {
-		this.num1 = num1;
-		this.num2 = num2;
+	public Addition(int num3, int num4) {
 		this.num3 = num3;
 		this.num4 = num4;
-		System.out.println(addAction2());
+		System.out.println("덧셈 : " + addAction2());
 	}
 	// Method
 	//Field 를 사용한 Method

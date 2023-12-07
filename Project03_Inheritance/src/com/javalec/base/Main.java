@@ -24,17 +24,24 @@ public class Main {
 		AddSubMulDivRemainder calc = new AddSubMulDivRemainder();
 		
 		// Input
-		for(int i = 0 ; i <=3; i++) {
-			System.out.print(String.format("%d번의 숫자를 입력하세요 : ",i+1));
-			numArray[i] = scanner.nextInt();
-		}
+			System.out.print("1번의 숫자를 입력하세요 : ");
+			calc.num1 = scanner.nextInt();
+			System.out.print("2번의 숫자를 입력하세요 : ");
+			calc.num2 = scanner.nextInt();
+			System.out.print("3번의 숫자를 입력하세요 : ");
+			calc.num3 = scanner.nextInt();
+			System.out.print("4번의 숫자를 입력하세요 : ");
+			calc.num4 = scanner.nextInt();
 		
 		
 		//========= Output =========
 		
 		//[Field 로 데이터전달]
 		// Addition 에 있는 field 의 변수를 이용하여 각각의 클래스에서 method() 를 사용해 결과값을 리턴
-		// 리턴 받은 값들을 출력함. 		
+		// 리턴 받은 값들을 출력함. 	
+		
+		
+		
 		System.out.println(" >>> Field를 사용 ");
 		System.out.println(String.format(
 				 "1. 1번과 2번 의 숫자의 합은 %d 입니다.  ",
@@ -54,13 +61,13 @@ public class Main {
 		// Constructor의 파라미터에 숫자를 입력하여 생성되는 순간 output  print 가 되도록 함.  
 		System.out.println(" >>> Constructor 를 사용 ");
 		System.out.println("3번과 4번의 덧셈, 뺄셈, 곱셈의 결과는 ");
-		Addition  add  	= new Addition( numArray[2],numArray[3]);
-		AddSub    sub 	= new AddSub(   numArray[2],numArray[3]);
-		AddSubMul mul 	= new AddSubMul(numArray[2],numArray[3]);
+		Addition  add  	= new Addition( calc.num3,calc.num4);
+		AddSub    sub 	= new AddSub(   calc.num3,calc.num4);
+		AddSubMul mul 	= new AddSubMul(calc.num3,calc.num4);
 		
 		System.out.println("1,2,3번의 뺄셈과 곱셈의 결과는 ");
-		AddSub    sub3  = new AddSub(numArray[0],numArray[1],numArray[2]);
-		AddSubMul mul3  = new AddSubMul(numArray[0],numArray[1],numArray[2]);
+		AddSub    sub3  = new AddSub(calc.num1,calc.num2,calc.num3);
+		AddSubMul mul3  = new AddSubMul(calc.num1,calc.num2,calc.num3);
 		
 		
 		// [Method 로 데이터 전달]
@@ -74,18 +81,18 @@ public class Main {
 				+ " 곱셈 :   %2d,"
 				+ " 나눗셈 :  %.2f "
 				+ " 나머지 :  %2d ",
-				calc.addAction(		  numArray[0],numArray[2],numArray[3]),
-				calc.subAction(		  numArray[0],numArray[2],numArray[3]),
-				calc.mulAcion(		  numArray[0],numArray[2],numArray[3]),
-				calc.divAction(		  numArray[0],numArray[2],numArray[3]),
-				calc.remainderAction( numArray[0],numArray[2],numArray[3])
+				calc.addAction(		  calc.num1,calc.num3,calc.num4),
+				calc.subAction(		  calc.num1,calc.num3,calc.num4),
+				calc.mulAcion(		  calc.num1,calc.num3,calc.num4),
+				calc.divAction(		  calc.num1,calc.num3,calc.num4),
+				calc.remainderAction( calc.num1,calc.num3,calc.num4)
 				));
 		System.out.println(String.format(
 				  "2. 2번과 4번 의 뺄셈, 나셈의 결과는"
 				+ " 뺄셈 : %d, "
 				+ " 나눗셈 : %2f, ",
-				//calc.subAction(numArray[1],numArray[3]),
-				calc.divAction(numArray[1],numArray[3])));
+				calc.subAction(calc.num2,calc.num4),
+				calc.divAction(calc.num2,calc.num4)));
 		
 		
 		

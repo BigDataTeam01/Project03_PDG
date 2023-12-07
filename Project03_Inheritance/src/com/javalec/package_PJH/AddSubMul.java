@@ -3,8 +3,15 @@ package com.javalec.package_PJH;
 import com.javalec.package_PJM.AddSub;
 
 public class AddSubMul extends AddSub {
+	/*
+	 * Description : Multiply calculation
+	 * Author: PJH
+	 * Date : 2023.12.04
+	 * 
+	 */
+	
 	//Field
-	//선언부터
+	
 	
 	
 	
@@ -13,6 +20,7 @@ public class AddSubMul extends AddSub {
 	public  AddSubMul() {
 		
 	}
+	// 
 	public AddSubMul(int num1, int num2, int num3) {
 		this.num1 = num1;
 		this.num2 = num2;
@@ -26,12 +34,14 @@ public class AddSubMul extends AddSub {
 	}
 	
 	//Method
-	public int mulAcion(int num1,int num2, int num4) {  	//method 용 Method(1,2,4)
+	//method에 파라미터를 입력해서 Main에 전달하는 Method
+	public int mulAcion(int num1,int num2, int num4) {  	
 	
 	return num1*num2*num4; 
 //	
 	}
-	public int mulAcion() {								//Field용 Method(1,3,4)
+	//Field용 Method(1,3,4)
+	public int mulAcion() {								
 		return num1*num3*num4;
 	}
 	
