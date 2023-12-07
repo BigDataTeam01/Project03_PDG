@@ -11,6 +11,13 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
+		/*
+		 * Description: Field, Constructor, Method 를 사용하여 Data 를 전달 
+		 * Author : DongGeun Park
+		 * Date : 2023.12.07
+		 */
+		
+		
 		// ========= Property =========
 		Scanner scanner = new Scanner(System.in);
 		int [] numArray = new int[4];
