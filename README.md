@@ -14,11 +14,16 @@
 
 * Main  : 박동근
 
-* Add ~ Sub class : 박정민
+* 박정민 : Addition, AddSub class 구현
 
-* Mul ~ Div class  : 박지환
+* 박지환 :AddSubMul ~ AddSubMulDiv class 구현 
 
-* Remainder class  : 박동근
+* 박동근 : AddSubMulRemainder class  구현
+
+* 소스 코드의 특징 :
+      1. Addition 클래스에서만 Field 변수를 생성함
+      2. Sub class 는 Add 에서 Mul 은 Sub 에서 상속받는다.
+      3. Main 에서는 입출력만 담당한다.(연산식을 쓰지 않는다.)
 
 >----------------------------
 
