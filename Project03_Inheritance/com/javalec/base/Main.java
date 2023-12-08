@@ -54,7 +54,7 @@ public class Main {
 				+ " 나눗셈 : %.2f ",
 				calc.addAction3(),
 				calc.subAction2(),
-				calc.mulAcion(),
+				calc.mulAcion_3(),
 				calc.divAction()
 				));
 		// [Constructor 로 데이터 전달]
