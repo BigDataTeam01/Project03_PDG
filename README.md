@@ -12,13 +12,12 @@
 
 >------Contribution----------
 
-* Main  : 박동근
 
 * 박정민 : Addition, AddSub class 구현
 
-* 박지환 :AddSubMul ~ AddSubMulDiv class 구현 
+* 박지환 : AddSubMul ~ AddSubMulDiv class 구현 
 
-* 박동근 : AddSubMulRemainder class  구현
+* 박동근 : Main,  AddSubMulRemainder class  구현
 
 * 소스 코드의 특징 :
 * 
