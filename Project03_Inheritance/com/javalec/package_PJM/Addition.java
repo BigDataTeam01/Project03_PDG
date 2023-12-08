@@ -25,12 +25,16 @@ public class Addition {
 	public Addition(int num3, int num4) {
 		this.num3 = num3;
 		this.num4 = num4;
-		System.out.print("덧셈12 : " + addAction2());
+		System.out.print("덧셈 : " + addAction_const()+" ");
 	}
 	// Method
 	//Field 를 사용한 Method
 	public int addAction2() {
 		return (num1 + num2);
+	}
+	
+	public int addAction_const() {
+		return (num3 + num4);
 	}
 	public int addAction3() {
 		return (num1 + num3 + num4);
