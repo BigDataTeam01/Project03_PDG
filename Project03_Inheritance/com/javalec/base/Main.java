@@ -42,7 +42,7 @@ public class Main {
 		
 		
 		
-		System.out.println(" >>> Field를 사용 ");
+		System.out.println("\n >>> Field를 사용 ");
 		System.out.println(String.format(
 				 "1. 1번과 2번 의 숫자의 합은 %d 입니다.  ",
 				 calc.addAction2()));
@@ -59,7 +59,7 @@ public class Main {
 				));
 		// [Constructor 로 데이터 전달]
 		// Constructor의 파라미터에 숫자를 입력하여 생성되는 순간 output  print 가 되도록 함.  
-		System.out.println(" >>> Constructor 를 사용 ");
+		System.out.println("\n >>> Constructor 를 사용 ");
 		System.out.println("3번과 4번의 덧셈, 뺄셈, 곱셈의 결과는 ");
 		Addition  add  	= new Addition( calc.num3,calc.num4);
 		AddSub    sub 	= new AddSub(   calc.num3,calc.num4);
@@ -73,7 +73,7 @@ public class Main {
 		// [Method 로 데이터 전달]
 		// Method 를 호출하고 Method 에 파라미터를 입력하여 입력한 파라미터를 계산해서 리턴함. 
 		// 리턴한 값들을 출력함.  
-		System.out.println(">>> Method를 사용");
+		System.out.println("\n>>> Method를 사용");
 		System.out.println(String.format(
 				  "1. 1,2,4번의 덧셈 뺄셈 곱셈 나눗셈, 나머지의  결과는 \n "
 				+ " 덧셈 :   %2d, "

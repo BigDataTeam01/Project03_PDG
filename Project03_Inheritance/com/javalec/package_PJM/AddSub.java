@@ -21,13 +21,13 @@ public class AddSub extends Addition {
 	public AddSub(int num3, int num4) {
 		this.num3 = num3;
 		this.num4 = num4;
-		System.out.println(" 뺄셈 : " + subAction2());
+		System.out.print(" 뺄셈 : " + subAction2());
 	}
 	public AddSub(int num1, int num2, int num3) {
 		this.num1 = num1;
 		this.num2 = num2;
 		this.num3 = num3;
-		System.out.println(" 뺄셈 : " + subAction2());
+		System.out.print(" 뺄셈 : " + subAction2());
 	}
 	// Method
 	public int subAction2() { // Field 를 사용한 Method
