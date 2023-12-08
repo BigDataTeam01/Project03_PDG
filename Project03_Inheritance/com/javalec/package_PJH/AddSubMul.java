@@ -12,11 +12,7 @@ public class AddSubMul extends AddSub {
 	
 	//Field
 	
-	
-	
-	
 	//construction
-	
 	public  AddSubMul() {
 		
 	}
@@ -25,12 +21,12 @@ public class AddSubMul extends AddSub {
 		this.num1 = num1;
 		this.num2 = num2;
 		this.num3 = num3;
-		System.out.println("곱셈 : "+ mulAcion());
+		System.out.println("곱셈 : "+ mulAcion_3());
 	}
-	public AddSubMul(int num1, int num2) {
-		this.num1 = num1;
-		this.num2 = num2;
-		System.out.println("곱셈 : "+ mulAcion());
+	public AddSubMul(int num3, int num4) {
+		this.num3 = num3;
+		this.num4 = num4;
+		System.out.println("곱셈 : "+ mulAcion_2());
 	}
 	
 	//Method
@@ -40,9 +36,12 @@ public class AddSubMul extends AddSub {
 	return num1*num2*num4; 
 //	
 	}
-	//Field용 Method(1,3,4)
-	public int mulAcion() {								
-		return num1*num3*num4;
+	//Field용 Method
+	public int mulAcion_3() {								
+		return num1*num2*num3;
+	}
+	public int mulAcion_2() {								
+		return num3*num4;
 	}
 	
 	
