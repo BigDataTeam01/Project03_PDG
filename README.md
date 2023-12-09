@@ -1,7 +1,7 @@
 # Project03_PDG
 
 
-##### Description : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값 전달
+##### `Description` : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값 전달
 
 
   ***팀장 : 박동근*** 
