@@ -21,7 +21,7 @@
 
 * 소스 코드의 특징 :
   
-      1. Addition 클래스에서만 Field 변수를 생성함
+  *    1. Addition 클래스에서만 Field 변수를 생성함
   
       2. Sub class 는 Add 에서 Mul 은 Sub 에서 상속받는다.
   
