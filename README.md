@@ -26,7 +26,7 @@
   * _addSub class는 Addition 에서, addSubMul 은 addSub 을 상속 받는방식_
   * _Main 에서는 입출력만 담당(연산식 X)_
 
-===================================
+---
 
 > **Version 1.0.0 Output Screens**
 > **Updated : 2023.12.07**
