@@ -4,7 +4,7 @@
 
 
 
-#### Description : 숫자 4개를 입력받음 => 각 클래스의 Field , Constructor, Method 로 Data -> Main(연산 결과를 출력).
+##### Description : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값전달
 
 * 팀장 : 박동근 
 
@@ -34,7 +34,9 @@ Ver01 _Updated : 2023.12.07
 
 <img width="548" alt="스크린샷 2023-12-08 오전 10 29 01" src="https://github.com/BigDataTeam01/Project03_PDG/assets/149550771/ea958e5f-feac-45b3-8ab4-080077dd1dbc">
 
-Ver02 _Updated : 2023.12.07 ( addition erro 해결 : constructor 에서 사용하는 파라미터가 this.num3,4  로 안가고 this.num 1,2 로 전달되어 해결함  )
+>>>>>> Output Screens
+Ver02 _Updated : 2023.12.07
+>>>>>>  ( addition erro 해결 : constructor 에서 사용하는 파라미터가 this.num3,4  로 안가고 this.num 1,2 로 전달되어 해결함  )
 
 <img width="523" alt="스크린샷 2023-12-08 오후 12 12 34" src="https://github.com/ForrestDPark/Project03_PDG/assets/149550771/602a7058-07a0-4a97-b822-9b2147796976">
 
