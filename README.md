@@ -4,7 +4,7 @@
 
 
 
-##### Description : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값전달
+##### Description : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값 전달
 
 * 팀장 : 박동근 
 
@@ -20,7 +20,7 @@
 * 박동근 : Main,  AddSubMulRemainder class  구현
 
 * 소스 코드의 특징 :
-* 
+  
       1. Addition 클래스에서만 Field 변수를 생성함
   
       2. Sub class 는 Add 에서 Mul 은 Sub 에서 상속받는다.
