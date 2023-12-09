@@ -1,7 +1,7 @@
 # Project03_PDG
 
 
-##### `Description` : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값 전달
+--- `*입력받은 4개의 숫자에 대한 연산 결과 출력*` ---
 
 
   ***팀장 : 박동근*** 
@@ -9,7 +9,6 @@
   ***참여 팀원 : 박정민, 박지환***
 
 >------**Contribution**----------
-
 
 **박정민 : Addition, AddSub class 구현**
 
@@ -19,9 +18,9 @@
 
 * 소스 코드의 특징 :
   
-  * _Addition 클래스에서만 Field 변수를 생성함_  
-  * _Sub class 는 Add 에서 Mul 은 Sub 에서 상속받는다._
-  * _Main 에서는 입출력만 담당한다.(연산식을 쓰지 않는다.)_
+  * _Field 는 Addition class 만 작성_  
+  * _addSub class는 Addition 에서, addSubMul 은 addSub 을 상속 받는방식_
+  * _Main 에서는 입출력만 담당(연산식 X)_
 
 >----------------------------
 
