@@ -3,18 +3,19 @@
 
 ##### Description : 숫자 4개 입력받은 후 각 클래스의 Field , Constructor, Method 를 사용하여 main 으로 결과값 전달
 
-* 팀장 : 박동근 
 
-* 참여 팀원 : 박정민, 박지환
+  ***팀장 : 박동근*** 
+
+  ***참여 팀원 : 박정민, 박지환***
 
 >------Contribution----------
 
 
-** 박정민 : Addition, AddSub class 구현**
+**박정민 : Addition, AddSub class 구현**
 
-** 박지환 : AddSubMul ~ AddSubMulDiv class 구현** 
+**박지환 : AddSubMul ~ AddSubMulDiv class 구현** 
 
-** 박동근 : Main,  AddSubMulRemainder class  구현**
+**박동근 : Main,  AddSubMulRemainder class  구현**
 
 * 소스 코드의 특징 :
   
