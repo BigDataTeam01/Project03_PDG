@@ -42,6 +42,7 @@
 >>>>>>**Version 1.0.2 Output Screens**
 >>>>>> **Updated : 2023.12.09**
 
-![image](https://github.com/BigDataTeam01/Project03_PDG/assets/149550771/78653ef3-f293-482d-ae96-c1f1b82a6c8b)
+![image](https://github.com/BigDataTeam01/Project03_PDG/assets/149550771/db584be9-5a90-4205-aee5-8dc6ae606dbc)
+
 
 
