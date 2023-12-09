@@ -8,7 +8,7 @@
 
   ***참여 팀원 : 박정민, 박지환***
 
->------**Contribution**----------
+----`**Contribution**`-----
 
 **박정민 : Addition, AddSub class 구현**
 
@@ -16,7 +16,7 @@
 
 **박동근 : Main, AddSubMulRemainder class  구현**
 
-* 소스 코드의 특징 :
+---**소스 코드의 특징** ---
   
   * _Field 는 Addition class 만 작성_  
   * _addSub class는 Addition 에서, addSubMul 은 addSub 을 상속 받는방식_
